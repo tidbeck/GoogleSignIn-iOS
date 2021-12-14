@@ -22,7 +22,7 @@ let googleSignInVersion = "6.0.2"
 let package = Package(
   name: "GoogleSignIn",
   defaultLocalization: "en",
-  platforms: [.iOS(.v9)],
+  platforms: [.iOS(.v9), .macOS(.v10_12)],
   products: [
     .library(
       name: "GoogleSignIn",
